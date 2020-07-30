@@ -1,0 +1,24 @@
+{
+  "name": "hello-travis",
+  "version": "1.0.0",
+  "description": "This project is to test travis ci",
+  "main": "hello.js",
+  "scripts": {
+    "test": "jshint hello.js",
+    "start": "node hello.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vish-git/hello-travis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vish-git/hello-travis/issues"
+  },
+  "homepage": "https://github.com/vish-git/hello-travis#readme",
+  "devDependencies": {
+    "jshint": "^2.11.2"
+  }
+}
